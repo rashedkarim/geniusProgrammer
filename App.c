@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int a[5][5] = {
-                    {32,32,42,32,32},
-                    {32,42,42,42,32},
-                    {42,42,42,42,42},
-                    {32,42,42,42,32},
-                    {32,32,42,32,32}
-                                        };
-    for (int row =  0; row < 5; row++){
-        for (int col = 0; col < 5; col++){
-            printf ("%c" , a[row][col]);
+    int matrix;
+    printf ("Enter the size of square: ");
+    scanf ("%d" , &matrix);
+
+    for(int row = 1; row < matrix; row++){
+        for(int col = 1; col < matrix; col++){
+            printf (" * ");
         }
         printf ("\n");
     }
-    return 0;   
+    return 0;
 }
