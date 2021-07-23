@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    int a = 6;
-    printf ("Hello world...%d" , a);
+    printf ("Hello world...");
     return 0;   
 }
