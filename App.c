@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 #include "box.c"
 #include "Diamond.c"
 #include "lib/myHeader.h"
@@ -13,5 +14,8 @@ int main(){
     printf("\n%d", c);
 
     diamond();
+    
+    printf ("\nPress any key to exit");
+    getch();
     return 0;
 }
