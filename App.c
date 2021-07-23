@@ -1,15 +1,15 @@
 #include <stdio.h>
+#include "box.c"
+#include "diamond.c"
+#include "lib/myHeader.h"
 
 int main(){
     int matrix;
-    printf ("Enter the size of square: ");
+    intInput ("Enter the size of square: ", "%d", &matrix);
     scanf ("%d" , &matrix);
 
-    for(int row = 1; row < matrix; row++){
-        for(int col = 1; col < matrix; col++){
-            printf (" * ");
-        }
-        printf ("\n");
-    }
+    box(matrix);
+    int c = add(5,6);
+    printf("\n%d", c);
     return 0;
 }
