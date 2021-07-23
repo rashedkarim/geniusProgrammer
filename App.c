@@ -1,7 +1,11 @@
 #include <stdio.h>
-#include "Diamond.c"
+//Enter the include file here
+#include <conio.h>
 
 int main(){
-    diamond();
+    //Call the c here
+    
+    printf ("\nPress any key to exit");
+    getch();
     return 0;
 }
