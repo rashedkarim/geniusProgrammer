@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "box.c"
-#include "diamond.c"
+#include "Diamond.c"
 #include "lib/myHeader.h"
 
 int main(){
@@ -11,5 +11,7 @@ int main(){
     box(matrix);
     int c = add(5,6);
     printf("\n%d", c);
+
+    diamond();
     return 0;
 }
