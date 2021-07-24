@@ -1,11 +1,7 @@
 #include <stdio.h>
-//Enter the include file here
-#include <conio.h>
+#include "Practice.c"
 
 int main(){
-    //Call the c here
-    
-    printf ("\nPress any key to exit");
-    getch();
+    practice();
     return 0;
 }
