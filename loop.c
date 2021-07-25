@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int loop(int loop){
-    for (int l = 1; l <= loop; l++){
-        printf ("%4d" , l);
+int loop(int i,int j,int n){
+    for (;i<=n;i+=j){
+        printf ("%4d" , i);
     }
     return 0;
 }
