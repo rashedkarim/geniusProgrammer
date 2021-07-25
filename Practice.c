@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int practice(){
-    printf ("Write a c programm");
+    printf ("Hello world...");
     return 0;
 }
