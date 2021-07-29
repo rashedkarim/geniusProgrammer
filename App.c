@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "loop.c"
-#include "delay.h"
 #include <string.h>
+#include <conio.h>
+#include <stdlib.h>
+#include "delay.h"
 #include "practice.c"
 
 int main(){
