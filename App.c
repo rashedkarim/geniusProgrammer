@@ -6,7 +6,8 @@
 #include "delay.h"
 #include "practice.c"
 
-int main(){                                                                                                                                         color();
+int main(){
+    color();
     practice();
     return 0;
 }
