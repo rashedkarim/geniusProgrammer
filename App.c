@@ -2,8 +2,9 @@
 #include "loop.c"
 #include "delay.h"
 #include <string.h>
+#include "practice.c"
 
 int main(){
-    printf ("Hello worlld..");
+    practice();
     return 0;
 }
