@@ -1,18 +1,15 @@
 #include <stdio.h>
 #include <conio.h>
-#include "box.c"
-#include "Diamond.c"
+#include <string.h>
+#include "BinarySearch.c"
+#include "LinearSearch.c"
 #include "lib/myHeader.h"
 
 int main(){
-    int matrix = 5;
-    intInput ("Enter the size of square: ", "%d", &matrix);
+    string str;
+    str = "Tahsin Tahsin Tahsin Tahsin Tahsin Tahsin Tahsin Tahsin Tahsin ";
 
-    box(matrix);
-    
-    diamond();
-    
-    printf ("\nPress any key to exit");
-    getch();
+        printf("%p : %s ", &str, str );
+   
     return 0;
 }
