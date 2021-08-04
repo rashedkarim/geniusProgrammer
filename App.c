@@ -11,8 +11,9 @@
 int main(){
     string str;
     str = "Tahsin Tahsin Tahsin Tahsin Tahsin Tahsin Tahsin Tahsin Tahsin ";
-    printf("%p :: %s ", &str, str );
+    
     printf("%p : %s ", &str, str );
+    
     printf("End of the code");
     return 0;
 }
