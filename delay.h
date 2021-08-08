@@ -28,3 +28,13 @@ void progressBar(int times){
 	printf("%c", 219);
 	if(times-->0)progressBar(times);	
 }
+
+int timer(int time){
+	for (time; time>=0; time--){
+		printf ("\r%9d" , time);
+		delay (1000);
+	}
+	printf ("%c" , 7);
+	printf ("\n");
+	return 0;
+}
