@@ -3,6 +3,6 @@
 #include <stdlib.h>
 
 int practice(){
-	printf ("Hello world...");
+	printf ("Exit");
 	return 0;
 }
