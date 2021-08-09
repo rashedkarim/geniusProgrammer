@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
+#include "file.c"
 #include "practice.c"
 
 int main(){
-	practice();
+	file();
     return 0;
 }
