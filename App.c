@@ -6,6 +6,8 @@
 #include "practice.c"
 
 int main(){
-	file();
+	printf ("\n");
+	practice();
+	printf ("\n");
     return 0;
 }
