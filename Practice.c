@@ -2,6 +2,6 @@
 #include <stdlib.h>
 
 int practice(){
-    printf ("Hello world...s");
+    printf ("Hello world...");
    return 0;
 }
