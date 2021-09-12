@@ -6,7 +6,7 @@
 #include "practice.c"
 
 int main(){
-	printf ("\nTahisn");
+	printf ("\n");
 	practice();
 	printf ("\n");
     return 0;
